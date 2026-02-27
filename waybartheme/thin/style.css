@@ -1,0 +1,84 @@
+@import "colors/colors.css";
+
+/* thin waybar theme */
+
+* {
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    min-height: 0;
+    font-family: JetBrainsMono Nerd Font;
+}
+
+window#waybar {
+    background: @bg;
+    color: @fg;
+}
+
+/* tool tip */
+tooltip {
+  background: @bg;
+  border: 1px solid @border;
+}
+
+tooltip label {
+  color: @fg;
+}
+
+/* workspaces */
+#workspaces {
+  border-radius: 28px;
+  padding: 1px 10px;
+  font-size: 20px;
+}
+
+#workspaces button {
+  all: initial;
+  min-width: 0;
+  padding: 1px 4px;
+  margin: 3px 3px;
+  border-radius: 6px;
+  color: #cdd6f4;
+}
+
+#workspaces button.active {
+  color: @blue;
+}
+
+#workspaces button:hover {
+  color: @blue;
+}
+
+#workspaces button.urgent {
+  background-color: @error;
+}
+
+/* module configurations */
+#custom-swaync,
+#network,
+#backlight,
+#wireplumber,
+#clock {
+  padding: 0 10px;
+}
+
+/* spacial module settings */
+#custom-swaync {
+  color: @blue
+}
+
+#network {
+  color: @purple;
+}
+
+#backlight {
+  color: @yellow;
+}
+
+#wireplumber {
+  color: @green;
+}
+
+#clock {
+  color: @red;
+}
