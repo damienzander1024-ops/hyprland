@@ -1,0 +1,16 @@
+@define-color cc-bg #1f2b36;
+@define-color noti-border-color #1c1c1c;
+@define-color noti-bg #1f2b36;
+@define-color noti-bg-darker #11111b;
+@define-color noti-bg-hover #1f2b36;
+@define-color noti-bg-focus #1f2b36;
+@define-color noti-close-bg #1f2b36;
+@define-color noti-close-bg-hover #1f2b36;
+@define-color text-color #fafafa;
+@define-color text-color-disabled #fafafa;
+@define-color bg-selected #1f2b36;
+@define-color border-green #39506d;
+@define-color red-base #703030;
+@define-color red-hover #703030;
+@define-color green-base #195239;
+@define-color blue-base #386f96;

@@ -1,0 +1,32 @@
+/* Nightfox color palette */
+
+@define-color bg          #192330;
+@define-color bg_alt      #212e3f;
+@define-color selection   #2b3b51;
+@define-color cursorline  #29394f;
+@define-color border      #39506d;
+
+@define-color fg          #cdcecf;
+@define-color fg_dim      #aeafb0;
+@define-color comment     #738091;
+
+@define-color red         #c94f6d;
+@define-color orange      #f4a261;
+@define-color yellow      #dbc074;
+@define-color green       #81b29a;
+@define-color cyan        #63cdcf;
+@define-color blue        #719cd6;
+@define-color purple      #9d79d6;
+@define-color magenta     #d67ad2;
+
+/* Diagnostics */
+@define-color error       #c94f6d;
+@define-color warning     #f4a261;
+@define-color info        #719cd6;
+@define-color hint        #63cdcf;
+
+/* Git */
+@define-color git_added   #81b29a;
+@define-color git_modified #719cd6;
+@define-color git_removed #c94f6d;
+

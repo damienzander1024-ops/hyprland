@@ -1,0 +1,26 @@
+/*  Mocha color palete */
+
+@define-color bg          #1e1e2e;
+@define-color bg_alt      #313244;
+@define-color selection   #7f849c;
+@define-color cursorline  #9399b2;
+@define-color border      #181825;
+
+@define-color fg          #cdd6f4;
+@define-color fg_dim      #bac2de;
+@define-color comment     #7f849c;
+
+@define-color red         #f38ba8;
+@define-color orange      #fab387;
+@define-color yellow      #f9e2af;
+@define-color green       #a6e3a1;
+@define-color cyan        #89dceb;
+@define-color blue        #89b4fa;
+@define-color purple      #cba6f7;
+@define-color magenta     #eba0ac;
+
+/* Diagnostics */
+@define-color error       #f5c2e7;
+@define-color warning     #f5e0dc;
+@define-color info        #f2cdcd;
+@define-color hint        #f5e0dc;

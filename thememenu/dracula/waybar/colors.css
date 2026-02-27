@@ -1,0 +1,24 @@
+@define-color bg          #282A36;
+@define-color bg_alt      #282A36;
+@define-color selection   #44475A;
+@define-color cursorline  #44475A;
+@define-color border      #6272A4;
+
+@define-color fg          #F8F8F2;
+@define-color fg_dim      #F8F8F2;
+@define-color comment     #44475A;
+
+@define-color red         #FF5555;
+@define-color orange      #FFB86C;
+@define-color yellow      #F1FA8C;
+@define-color green       #50FA7B;
+@define-color cyan        #8BE9FD;
+@define-color blue        #8BE9FD;
+@define-color purple      #BD93F9;
+@define-color magenta     #FF79C6;
+
+/* Diagnostics */
+@define-color error       #FFB86C;
+@define-color warning     #F1FA8C;
+@define-color info        #8BE9FD;
+@define-color hint        #8BE9FD;
